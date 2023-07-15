@@ -3,6 +3,6 @@ import { displayHello } from '../controllers/textController';
 
 const TextRouter = express.Router();
 
-TextRouter.route('/').get(displayHello);
+TextRouter.route('/hello').get(displayHello);
 
 export default TextRouter;
